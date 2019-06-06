@@ -9,7 +9,15 @@
             "hello",
             "help"
           ],
-          "name": "Hello World",
+          "name": "HRSkill",
+          "description": "Sample Full Description"
+        },
+        "fr-FR": {
+          "summary": "Sample Short Description",
+          "examplePhrases": [
+            "assistant"
+          ],
+          "name": "HRSkill",
           "description": "Sample Full Description"
         }
       },
@@ -22,7 +30,7 @@
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/custom",
-          "uri": "ask-custom-helloworld-default"
+          "uri": "ask-custom-HRSkill-default"
         }
       }
     },
